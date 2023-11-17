@@ -1,0 +1,9 @@
+dash==2.14.1
+ipython==8.17.2
+numpy==1.26.2
+pandas==2.1.3
+Pillow==10.1.0
+plotly==5.18.0
+scipy==1.11.3
+gunicorn
+dash-tools
