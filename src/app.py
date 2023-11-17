@@ -38,7 +38,7 @@ def setContour(team_bin,contourN = 12):
     else:
         midC = 1-(1/((abs(minG)/abs(maxG))+1))
     
-    colorscale = [[0, 'blue'],[max(0,midC-0.02), 'white'], [min(1,midC+0.02), 'white'],[1, 'red']]
+    colorscale = [[0, 'red'],[max(0,midC-0.02), 'white'], [min(1,midC+0.02), 'white'],[1, 'blue']]
     #colorscale = [[0.1, 'rgb(255, 255, 255)'], [0, 'rgb(46, 255, 213)'], [1, 'rgb(255, 28, 251)']]
 
     return colorscale,minG,maxG
